@@ -1,0 +1,19 @@
+// Colors
+$test-color: red;
+
+$lightest-gray: #F7F7F7;
+$medium-gray: #CBCBCB;
+$dark-gray: #4A4A4A;
+$darkest-gray: #333333;
+$footer-gray: #1D1D1D;
+$black: #000000;
+$delong-primary: #C21927;
+
+// Fonts
+$primary-font: 'Open Sans', sans-serif;
+
+// Font Sizes
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
